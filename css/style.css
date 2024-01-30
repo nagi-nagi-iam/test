@@ -6,13 +6,12 @@ body{
     color: #707070;
 }
 
-.header-logo{
-    padding: 20px 0;
+#header{
     text-align: center;
 }
 
-.header-logo-img{
-    width: 120px;
+#header img{
+    width: 100px;
 }
 
 .header-list{
@@ -21,7 +20,6 @@ body{
 }
 
 .h_list{
-    margin: 10px;
     padding: 10px;
 }
 
@@ -128,6 +126,6 @@ a{
 
 .ma-a img{
     width: 500px;
-    height: 800;
+    height: 500px;
     margin-left: 100px;
 }
