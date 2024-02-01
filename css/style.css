@@ -12,6 +12,7 @@ body{
 
 #header img{
     width: 100px;
+    text-align: center;
 }
 
 .header-list{
@@ -116,16 +117,50 @@ a{
 }
 
 .ma-a p{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 35px;
+    margin-top: 100px;
 }
 
 .ma-a p span{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .ma-a img{
     width: 500px;
     height: 500px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
+
+.ma-b{
+    display: flex;
+    justify-content: center;
+}
+
+.ma-b img{
+    width: 500px;
+}
+
+.ma-b p {
+    margin-left: 150px;
+    font-size: 15px;
+    line-height: 35px;
+    margin-top: 100px;
+}
+
+.ma-b p span{
+    font-size: 25px;
+}
+
+.ma-c{
+    display: flex;
+    justify-content: center;
+}
+
+.ma-c p{
+    font-size: 15px;
+    margin-top: 100px;
+}
+ .ma-c img{
+    width: 300px;
+ }
