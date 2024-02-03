@@ -3,7 +3,7 @@
 body{
     background-color: #ffffff;
     font-family: "inter";
-    color: #707070;
+    color: black;
 }
 
 #header{
@@ -31,6 +31,10 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+
+.slideBox img{
+    width: 1450px;
 }
 
 /*
@@ -162,5 +166,73 @@ a{
     margin-top: 100px;
 }
  .ma-c img{
-    width: 300px;
+    width: 270px;
+    height: 270px;
  }
+
+ .ma-d {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+
+ .imga img{
+    width: 850px;
+    height: 1040px;
+    margin-left: 25px;
+ }
+
+ .img-a{
+    width: 500px;
+    height: 505px;
+    margin-left: 25px;
+ }
+
+ .img-b{
+    width: 500px;
+    height: 505px;
+    margin-left: 30px;
+    margin-top: 25px;
+ }
+
+ #ABOUT{
+    background-color: #f3f3f3;
+    margin-top: 35px;
+ }
+
+ #ABOUT .title h2{
+    margin-top: 30px;
+ }
+
+ .ab-a{
+    display: flex;
+    justify-content: center;
+ }
+
+ .ab-a img{
+    width: 450px;
+    height: 450px;
+    margin-left: 25px;
+    margin-top: 120px;
+ }
+
+ .ab-a span{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 60px;
+ }
+
+ .ab-a p{
+    font-size: 15px;
+    margin-left: 150px;
+    line-height: 35px;
+ }
+
+ .ab-pa{
+    margin-top: 40px;
+ }
+
+ .ab-pb{
+    margin-top: 40px;
+ }
+
