@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+body{
+    font-family: serif;
+}
+
+#HEADER{
+    display: flex;
+}
+
+#HEADER img{
+    width: 80px;
+    margin-left: 250px;
+}
+
+.hea-list{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin-left: 250px;
+}
+
+.h_list{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg_test{
+    text-align: center;
+    padding: 150px;
+    background-image: url(img/MV/main.png);
+}
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    font-weight: normal;
+}
+
+.m_list{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 25px;
+    border-bottom: solid thin;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 35px;
+}
+
+.m_list .time{
+    margin-right: 25px;
+}
+
+.m_list .box{
+    margin-right: 25px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.m_list .text{
+    margin-right: 25px;
+}
+
+.main_seko{
+    padding-top: 35px;
+}
+
+#SEKO{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.ma-b{
+    text-align: center;
+}
+.ma-b img{
+    width: 350px;
+}
+
+.ma-b h3{
+    font-weight: normal;
+}
+
+.ma-c{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.ma-c img{
+    width: 350px;
+}
+.ma-c h3{
+    font-weight: normal;
+}
+
+.ma-d{
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 50px;
+}
+
+.link{
+    display: flex;
+    margin-top: 100px;
+}
+
+.link img{
+    width: 480px;
+}
+
+#FOOTER{
+    background-color: black;
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer img{
+    width: 50px;
+    height: 30px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.fo-list{
+    display: flex;
+}
+
+#FOOTER p{
+    text-align: center;
+}
